@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+</head>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet">
+    <style>
+        
+        body{  color:white; 
+       
+        margin:0px;
+        padding: 0px;
+        font-family: 'Passion One', cursive;
+       
+        background:url('img/56.jpg');
+        
+        height:1055px;
+    }
+    .left{
+    display:inline-block;
+    
+    position:absolute;
+    left:64px;
+    top:40px;
+
+}
+.left img{
+    float:left;
+    width:180px;
+
+   }
+   .left div{
+    line-height:44px;
+    font-size: 22px;
+    text-align: center;
+   }
+
+    .mid{ position:sticky;
+    
+display:block;
+width:50%;
+margin :20px auto;
+
+}
+.navbar
+{
+    display: inline-block;
+}
+.navbar ul
+{
+       overflow: auto;
+}
+.navbar li{
+    position:sticky;
+    list-style:none;
+    display:inline-block;
+    left:22px;
+    margin:22px 2px;
+
+    }
+.navbar li a{position:sticky;
+    text-decoration:none;
+    color:white;
+    padding:8px 14px;
+    font-size: 25px;
+    border-radius: 8px;
+}
+#li{position:sticky;}
+.navbar li a:hover{background-color: rgb(48, 67, 77);}
+
+    .right{ position:absolute;
+       
+    float: right;
+   
+    display:inline-block;
+   
+    right:34px;
+    top:20px;}
+    .btn{
+        margin: 28px 2px;
+    padding: 7px 10px;
+    background-color: black;
+    border: 2px solid rgb(90, 90, 88);
+    color: white;
+    border-radius: 9px;
+    font-size: 15px;
+    cursor: pointer;
+
+    }
+    .btn:hover{background-color:rgb(69, 69, 68)}
+.container {
+    border: 6px solid #4a0b55;
+    margin: 151px 122px;
+    padding: 82px;
+    width: 33%;
+    border-radius: 16px;
+}
+.container h1{margin:auto;
+width:34%
+display:block;
+font-family:cursive ;
+
+}
+.form-gp input
+{  padding: 7px 24px;
+    margin: 4px 34px;
+    border: 2px solid rgba(221, 218, 199, 0.007);
+    border-radius: 7px;
+}
+#btn2 {background-color: rgb(234, 228, 228);
+    padding: 3px 9px;
+    margin: 8px 32px;
+    border-radius: 7px;}
+  #rst{background-color: rgb(234, 228, 228);
+    padding: 4px 23px;
+    margin: 4px 6px;
+    border-radius: 7px;} 
+    </style>
+    
+
+<body>
+     <header id="head" >
+        <!--left for logo-->
+         <div class="left">
+            <img src="img/89.png" alt="error">
+           
+         </div>
+
+         <!--mid for navigation-->
+         <div class="mid" id="midbar">
+           <ul class="navbar">
+            <li class="li"><a href="*">Home</a></li>
+            <li><a href="*">About Us</a></li>
+            <li><a href="*">Fitness Calculator</a></li>
+            <li><a href="*">Contact Us</a></li>
+
+           </ul>
+
+         </div>
+         <!--right for button-->
+         <div class="right">
+
+          <button class="btn"> &#9743;&nbsp;&nbsp;Call Us</button>
+          <button class="btn">&#x1F4E7;&nbsp;&nbsp;Email US</button>
+         </div>
+     </header>
+
+     <div class="container">
+      <strong> <h1>Join best Gym in Patna</h1></strong>
+       <form actin="noaction.php">
+<div class="form-gp">
+    <input type="text" name="" placeholder="Enter your name">
+</div>
+<div class="form-gp">
+    <input type="text" name="" placeholder="Enter your age">
+</div>
+<div class="form-gp">
+    <input type="text" name="" placeholder="Enter your Gender">
+</div>
+<div class="form-gp">
+    <input type="text" name="" placeholder="Enter your Locality">
+</div>
+ </form><div>
+ <button id="btn2">Submit Now</button>
+ <input type="reset" value="Reset" id="rst">
+</div>
+     </div>
+
+    
+</body>
+</html>
